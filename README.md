@@ -1,4 +1,4 @@
-# Trustless Agents (ERC-8004) Casual Hackathon
+# Let’s vibe Reactive dApp Casual Hackathon
 
 **Decentralized AI Agents** are becoming one of the most transformative topics in the Ethereum ecosystem. The introduction of **ERC-8004** marks a pragmatic and visionary step forward in this domain.
 
