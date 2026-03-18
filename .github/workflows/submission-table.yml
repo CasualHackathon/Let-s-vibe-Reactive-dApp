@@ -1,0 +1,37 @@
+name: Update Submission Status & Sync README
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'submission/*/**'
+  workflow_dispatch:
+
+concurrency:
+  group: hackathon-automation
+  cancel-in-progress: false
+
+jobs:
+  update-and-sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Update submission status table
+        run: |
+          node -e "require('./materials/scripts/submission_table').updateSubmissionTable()"
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: '🤖 Auto-update: Update submission status table'
+          file_pattern: 'README.md'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'

@@ -1,0 +1,192 @@
+---
+alwaysApply: true
+---
+
+# TrustlessAgent Hackathon Registration Repository Rules Archive
+
+## 📋 Repository Overview
+
+This is an automated hackathon registration and project submission management system based on GitHub Issues, implementing automatic issue processing and document updates through GitHub Actions.
+
+## 🏗️ System Architecture
+
+### Core Components
+- **GitHub Issues**: User interaction entry point
+- **GitHub Actions**: Automated workflow engine
+- **Node.js Scripts**: Data processing and file management
+- **README.md**: Dynamically updated display page
+
+### Directory Structure
+```
+TrustlessAgent/
+├── .github/workflows/          # GitHub Actions workflows
+├── materials/scripts/          # Core processing scripts
+│   ├── config/                # Configuration files
+│   ├── processors/            # Business processors
+│   ├── services/              # Service layer
+│   └── utils/                 # Utility classes
+├── registration/              # User registration files
+├── submission/                # Project submission files
+├── test/                      # Local test scripts directory
+└── README.md                  # Main display page
+```
+
+## 🔄 Workflow Process
+
+### 1. User Registration Process
+1. User submits registration information through GitHub Issue
+2. GitHub Actions automatically triggers `signup-automation.yml`
+3. Script parses issue content and creates user registration file
+4. Updates registration table in README.md
+5. Automatically closes issue and adds confirmation comment
+
+### 2. Project Submission Process
+1. User submits project information through GitHub Issue
+2. GitHub Actions automatically triggers `submission-automation.yml`
+3. Verifies if user is registered
+4. Creates project folder and files
+5. Updates submission table in README.md
+6. Automatically closes issue and adds confirmation comment
+
+### 3. Status Synchronization Process
+1. Triggers when submission directory changes
+2. Runs `submission-table.yml` workflow
+3. Automatically updates project submission status table
+
+## 📝 Issue Format Specifications
+
+### Registration Issue Format
+- **Title**: Must start with "Registration"
+- **Content Format**: Use form style with the following fields
+  - `**Name:**`: User's full name
+  - `**Description:**`: Personal skills and experience introduction
+  - `**Contact Method:**`: Contact method type (Telegram | WeChat | Discord | Email | X(Twitter) | GitHub)
+  - `**Contact:**`: Specific contact account
+
+### Submission Issue Format
+- **Title**: Must start with "Submission"
+- **Content Format**: Use form style with the following fields
+  - `**Project Name:**`: Project name
+  - `**Project Description:**`: Project description
+  - `**Project Members:**`: Project member list (comma-separated)
+  - `**Wallet Address:**`: Ethereum wallet address or ENS domain
+
+## 🛠️ Script Architecture
+
+### Processor Layer (Processors)
+- `RegistrationProcessor`: Handles user registration logic
+- `SubmissionProcessor`: Handles project submission logic
+
+### Service Layer (Services)
+- `UserManager`: User information management
+- `ReadmeManager`: README file management
+
+### Utility Layer (Utils)
+- `FieldParser`: Field parsing utility (supports new English format `**Field:**` and old Chinese format `Field[中文]:`)
+- `FileManager`: File operation utility
+- `GitManager`: Git operation utility
+
+## ⚙️ Configuration Management
+
+### Constants Configuration (`constants.js`)
+- Directory path configuration
+- Field name mapping
+- README marker configuration
+- Status indicator definitions
+
+### Environment Variables
+- `ISSUE_BODY`: Issue content
+- `ISSUE_USER`: GitHub username
+
+## 🔧 Automation Rules
+
+### Trigger Conditions
+1. **Auto Trigger**: When issue is opened
+2. **Manual Trigger**: When issue is manually closed with status "completed"
+
+### Processing Logic
+1. Parse issue content
+2. Validate required fields
+3. Create corresponding files
+4. Update README table
+5. Commit Git changes
+6. Close issue and add comment
+
+### Error Handling
+- Terminate processing when field validation fails
+- Prohibit project submission when user is not registered
+- Rollback changes when file operations fail
+
+## 📊 Data Management
+
+### File Naming Conventions
+- Registration files: `{githubUser}.md`
+- Project folders: `submission/{githubUser}/`
+- Project files: `HACKATHON.md`, `code.txt`
+- Test scripts: `test/*.js` (for local testing)
+
+### Table Update Mechanism
+- Use HTML comment markers to locate update areas
+- Regular expression matching and content replacement
+- Maintain table format consistency
+
+### Test Directory Management
+- `./test/` directory for storing local test scripts
+- Test scripts for validating parsers, processors, etc.
+- Test files should not be committed to version control
+- Recommend excluding test directory in `.gitignore`
+
+## 🔒 Security Considerations
+
+### Permission Control
+- Use GitHub Token for file operations
+- Limit Actions write permission scope
+- Prevent malicious file operations
+
+### Data Validation
+- Required field validation
+- User registration status check
+- File path security check
+
+## 🚀 Extension Guide
+
+### Adding New Fields
+1. Add field definitions in `constants.js`
+2. Update corresponding processor logic
+3. Modify README template
+
+### Adding New Features
+1. Create new processor class
+2. Add corresponding GitHub Action
+3. Update documentation and configuration
+
+## 📋 Maintenance Checklist
+
+### Regular Checks
+- [ ] Check GitHub Actions running status
+- [ ] Verify file creation and update functionality
+- [ ] Test issue processing workflow
+- [ ] Check README table format
+- [ ] Run local test scripts to verify functionality
+- [ ] Clean up expired test files
+
+### Troubleshooting
+- [ ] Check GitHub Actions logs
+- [ ] Check script execution errors
+- [ ] Verify file permission settings
+- [ ] Confirm Git configuration is correct
+
+## 🎯 Best Practices
+
+1. **Issue Management**: Maintain consistent issue title format
+2. **File Organization**: Store by user and project classification
+3. **Error Handling**: Provide clear error messages
+4. **Documentation Updates**: Keep README content synchronized
+5. **Version Control**: Use meaningful commit messages
+6. **Test-Driven**: Write test scripts before modifying functionality
+7. **Test Isolation**: Place test scripts in independent `./test/` directory
+8. **Test Cleanup**: Regularly clean up unnecessary test files
+
+---
+
+*This rules archive is based on the current implementation of the TrustlessAgent repository. Please update promptly if there are any changes.*
