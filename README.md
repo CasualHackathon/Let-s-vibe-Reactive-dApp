@@ -1,8 +1,8 @@
 # Let’s vibe Reactive dApp Casual Hackathon
 
-- Banner ( 可选）
-- 主题：Let’s vibe Reactive dApp
-- 赛道：vibe coding
+![8de9667f28b758359fcc5c3df96110e](https://github.com/user-attachments/assets/e646eb0c-54cd-4cba-a9de-f37559fa31b0)
+
+
 - 参赛者报名入口：
 - 参赛项目提交入口：
 
