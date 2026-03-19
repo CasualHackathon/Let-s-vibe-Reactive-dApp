@@ -1,17 +1,20 @@
 # Let’s vibe Reactive dApp Casual Hackathon
 
-**Decentralized AI Agents** are becoming one of the most transformative topics in the Ethereum ecosystem. The introduction of **ERC-8004** marks a pragmatic and visionary step forward in this domain.
+- Banner ( 可选）
+- 主题：Let’s vibe Reactive dApp
+- 赛道：vibe coding
+- 参赛者报名入口：
+- 参赛项目提交入口：
 
-We believe that meaningful innovation doesn't always come from boardrooms or conference stages — it often starts with a late-night hack or a sudden spark in your code editor.
+## 🗓️活动日程安排：
 
-Bring your creativity, code, and maybe a cup of iced coffee — and help shape the next chapter of Decentralized AI Agents.
-
-## ⏰ Program Timeline
-
-- **Casual Hackathon**: Oct 27 - Nov 2, 2025. Hands-on implementation and creative exploration
-- **Demo Day**: Nov 2, 2025. Submit on GitHub, live show, fun prizes
-
-Stay up to date by joining our Telegram group: https://t.me/ERC8004.
+| **活动 (Event)** | **时间 (Time UTC+8)** | **形式 (Format)** | **会议链接 (Link）** |
+| --- | --- | --- | --- |
+| Open Day | 3 月 24 日 19:00（UTC+8） | Zoom Meeting | https://us06web.zoom.us/j/84049697008?pwd=9tCrjHkU548fO3r8ofvexqFCUKQajR.1 |
+| Workshop | 3 月 26 日 20:00（UTC+8） | Zoom Meeting | https://us06web.zoom.us/j/82717165700?pwd=iNaI4Yt4KBPggLI6StCfjvpGnPhj8u.1 |
+| Demo 提交截止 | 3 月 29 日 中午 12:00（UTC+8） | GitHub Issue |  |
+| Demo Day | 3 月 29 日 19:00 - 21:00（UTC+8） | Zoom Meeting | https://us06web.zoom.us/j/89776038067?pwd=2CdCUY4n0WvI7P9jVaQqlajL7x565F.1 |
+| 获奖公示 | 3 月 31 日 | 社区公告 | X 链接（待更新） |
 
 ## 🌿 What is Casual Hackathon?
 
