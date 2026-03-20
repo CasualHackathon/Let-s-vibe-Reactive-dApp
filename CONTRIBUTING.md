@@ -18,11 +18,12 @@
 **⏰ Demo 提交截止时间：** **2026.3.29 12:00 前（UTC+8）**
 
 ## **04 | 报名列表（Registration List）**
-<!-- registration-list:start -->
+
 | 1 | 菜鸟122422 | 菜鸟 | 123 | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/1) |
 | 2 | XiaoHai67890 | 全栈 有智能合约&前端开发经验 | 微信：XiaoHai4890 | 否 | 嘿嘿 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/4) |
 | 序号 | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 备注 | 更新资料 |
 | --- | --- | --- | --- | --- | --- | --- |
+<!-- registration-list:start -->
 <!-- registration-list:end -->
 
 ## **05 | 项目提交名单（Submission List）**
