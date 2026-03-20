@@ -18,17 +18,15 @@
 **⏰ Demo 提交截止时间：** **2026.3.29 12:00 前（UTC+8）**
 
 ## **04 | 报名列表（Registration List）**
-<!-- registration-list:start -->
+
 | # | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 备注 | 更新资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/2) |
-| #1 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/1) |
-| #2 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/2) |
+<!-- registration-list:start -->
 <!-- registration-list:end -->
 
 ## **05 | 项目提交名单（Submission List）**
-<!-- submission-list:start -->
+
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
 | --- | --- | --- | --- | --- |
-| - | - | - | - | [查看 / 更新 #3](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/3) |
+<!-- submission-list:start -->
 <!-- submission-list:end -->
