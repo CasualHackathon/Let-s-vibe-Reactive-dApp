@@ -4,7 +4,7 @@ const {
   findFieldValue,
   ensureMarkers,
   upsertRow,
-  mdLink,
+  mdLink
 } = require('./shared')
 
 const SECTION_TITLE = '## 04 | 报名列表（Registration List）'
@@ -36,5 +36,5 @@ function processRegistration(issueBody, context) {
 }
 
 module.exports = {
-  processRegistration,
+  processRegistration
 }
