@@ -19,7 +19,8 @@ jobs:
   sync:
     if: |
       contains(join(github.event.issue.labels.*.name, ','), 'registration') ||
-      contains(join(github.event.issue.labels.*.name, ','), 'submission')
+      contains(join(github.event.issue.labels.*.name, ','), 'submission') ||
+      contains(join(github.event.issue.labels.*.name, ','), 'special')
     runs-on: ubuntu-latest
 
     steps:
@@ -50,6 +51,16 @@ jobs:
           ISSUE_URL: ${{ github.event.issue.html_url }}
           ISSUE_USER: ${{ github.event.issue.user.login }}
         run: node .github/scripts/submission_extract.js
+
+      - name: Run special script
+        if: contains(join(github.event.issue.labels.*.name, ','), 'special')
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: node .github/scripts/special_extract.js
 
       - name: Commit changes
         run: |
