@@ -37,8 +37,8 @@ def clean_quote_block(text: str) -> str:
 
 
 def extract_field(field_name: str) -> str:
-    pattern = rf"\*\*{re.escape(field_name)}\*\*[^\n]*\n((?:>.*(?:\n|$))+)"
-    match = re.search(pattern, ISSUE_BODY, re.MULTILINE)
+    pattern = rf"(?m)^{re.escape(field_name)}[^\n]*\n((?:>.*(?:\n|$))+)"
+    match = re.search(pattern, ISSUE_BODY)
     if not match:
         return "-"
     return clean_quote_block(match.group(1))
