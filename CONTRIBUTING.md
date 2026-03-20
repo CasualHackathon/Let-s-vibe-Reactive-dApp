@@ -47,5 +47,6 @@
 <!-- special-list:start -->
 | 姓名 | Demo 1：名称 / [origin tx] / [reactive tx] / [destination tx] | Demo 2：名称 / [origin tx] / [reactive tx] / [destination tx] | Demo 3：名称 / [origin tx] / [reactive tx] / [destination tx] | 操作 |
 | --- | --- | --- | --- | --- |
+| 测试 | 测试1 | 测试 | 测试 | [查看 / 更新 #9](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/9) |
 <!-- special-list:end -->
 
