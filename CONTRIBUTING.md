@@ -21,7 +21,7 @@
 <!-- registration-list:start -->
 | # | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 备注 | 更新资料 |
 | --- | --- | --- | --- | --- | --- | --- |
-
+| #1 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/1) |
 <!-- registration-list:end -->
 
 ## **05 | 项目提交名单（Submission List）**
