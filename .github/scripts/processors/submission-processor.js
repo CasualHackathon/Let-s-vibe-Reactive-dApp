@@ -4,7 +4,7 @@ const {
   findFieldValue,
   ensureMarkers,
   upsertRow,
-  mdLink,
+  mdLink
 } = require('./shared')
 
 const SECTION_TITLE = '## 05 | 项目提交名单（Submission List）'
@@ -42,5 +42,5 @@ function processSubmission(issueBody, context) {
 }
 
 module.exports = {
-  processSubmission,
+  processSubmission
 }
