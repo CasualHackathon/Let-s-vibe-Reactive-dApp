@@ -23,6 +23,7 @@
 | 序号 | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 备注 | 更新资料 |
 | --- | --- | --- | --- | --- | --- | --- |
 | #1 | 菜鸟122422 | 菜鸟222 | 12356 | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/1) |
+| #4 | XiaoHai67890 | 全栈 有智能合约&前端开发经验 | 微信：XiaoHai4890 | 否 | 嘿嘿嘿嘿 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/4) |
 <!-- registration-list:end -->
 
 ## **05 | 项目提交名单（Submission List）**
