@@ -43,6 +43,7 @@
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
 | --- | --- | --- | --- | --- |
 | 测试21 | 测试文件2s | 232 | [Repo](https://www.youtube.com/) | [查看 / 更新 #3](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/3) |
+| 测试 | 测试 | 测试 | 测试 | [查看 / 更新 #10](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/10) |
 <!-- submission-list:end -->
 
 ## **06 | 特别挑战提交名单**
