@@ -20,6 +20,13 @@
 ## **04 | 报名列表（Registration List）**
 
 | # | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 备注 | 更新资料 |
+| --- | --- | --- | --- | --- | --- | --- |
+<!-- registration-list:start -->
+<!-- registration-list:end -->
 
 ## **05 | 项目提交名单（Submission List）**
+
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
+| --- | --- | --- | --- | --- |
+<!-- submission-list:start -->
+<!-- submission-list:end -->
