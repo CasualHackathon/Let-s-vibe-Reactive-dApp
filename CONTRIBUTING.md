@@ -27,7 +27,7 @@
 | #5 | - | - | - | - | 我想要成为web3高手 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/5) |
 | #6 | Partick | 大二在校学生，第一次参加黑客松，技术栈solidity,next.js,react.js,python,wagmi.js | 微信: tcjjy0124     邮箱：2046390698@qq.com | 否 | 无 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/6) |
 | #7 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/7) |
-| #8 | QingQiuGeek | 大四，java后端，转web3，学过solidity、go基础语法，部署过合约demo，玩过简单的链上交易 | 微信：javaer12345 邮箱：wzhaust@qq.com | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/8) |
+| #8 | QingQiuGeek | 大四，java后端，两次java实习，懂点前端，会玩docker、linux，计划转web3（着急），学过solidity、go基础语法，部署过合约demo，玩过简单的链上交易 | 微信：javaer12345 邮箱：wzhaust@qq.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/8) |
 <!-- registration-list:end -->
 
 ## **05 | 项目提交名单（Submission List）**
