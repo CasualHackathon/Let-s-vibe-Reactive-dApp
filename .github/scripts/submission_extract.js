@@ -2,11 +2,12 @@ const { appendGithubOutput } = require('./processors/shared')
 const { processSubmission } = require('./processors/submission-processor')
 
 const issueBody = process.env.ISSUE_BODY || ''
+
 const context = {
   issueNumber: process.env.ISSUE_NUMBER || '',
   issueTitle: process.env.ISSUE_TITLE || '',
   issueUrl: process.env.ISSUE_URL || '',
-  issueUser: process.env.ISSUE_USER || '',
+  issueUser: process.env.ISSUE_USER || ''
 }
 
 console.log('处理 submission issue:', context.issueNumber)
