@@ -46,8 +46,8 @@
 <!-- submission-list:end -->
 
 ## **06 | 特别挑战提交名单**
-<!-- submission-list:start -->
+<!-- special-list:start -->
 | 姓名 | Demo 1：名称 / [origin tx] / [reactive tx] / [destination tx] | Demo 2：名称 / [origin tx] / [reactive tx] / [destination tx] | Demo 3：名称 / [origin tx] / [reactive tx] / [destination tx] | 操作 |
 | --- | --- | --- | --- | --- |
-<!-- submission-list:end -->
+<!-- special-list:end -->
 
