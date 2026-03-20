@@ -8,7 +8,7 @@ function normalize(text = '') {
 }
 
 function escapeRegExp(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
 function cleanCell(value) {
@@ -35,6 +35,7 @@ function writeContributing(content) {
 
 function appendGithubOutput(key, value) {
   if (!process.env.GITHUB_OUTPUT) return
+
   if (String(value).includes('\n')) {
     fs.appendFileSync(
       process.env.GITHUB_OUTPUT,
@@ -47,8 +48,9 @@ function appendGithubOutput(key, value) {
 
 function findFieldValue(issueBody, fieldName) {
   const lines = normalize(issueBody).split('\n')
+
   const fieldReg = new RegExp(
-    `^${escapeRegExp(fieldName)}(?:\\s*\\([^\\n]*\\))?\\s*:?\\s*$`
+    `^(?:\\*\\*)?${escapeRegExp(fieldName)}(?:\\*\\*)?(?:\\s*\\([^\\n]*\\))?\\s*:?\\s*$`
   )
 
   for (let i = 0; i < lines.length; i++) {
@@ -89,13 +91,14 @@ function ensureMarkers(content, sectionTitle, startMarker, endMarker) {
   }
 
   const lines = normalize(content).split('\n')
-  const sectionIndex = lines.findIndex((line) => line.trim() === sectionTitle.trim())
+  const sectionIndex = lines.findIndex(line => line.trim() === sectionTitle.trim())
 
   if (sectionIndex === -1) {
     throw new Error(`未找到章节标题: ${sectionTitle}`)
   }
 
   let separatorIndex = -1
+
   for (let i = sectionIndex + 1; i < Math.min(lines.length, sectionIndex + 12); i++) {
     if (/^\|\s*---/.test(lines[i].trim())) {
       separatorIndex = i
@@ -108,6 +111,7 @@ function ensureMarkers(content, sectionTitle, startMarker, endMarker) {
   }
 
   lines.splice(separatorIndex + 1, 0, startMarker, endMarker)
+
   return lines.join('\n')
 }
 
@@ -115,6 +119,7 @@ function upsertRow(content, startMarker, endMarker, key, row) {
   const reg = new RegExp(
     `${escapeRegExp(startMarker)}\\n([\\s\\S]*?)\\n${escapeRegExp(endMarker)}`
   )
+
   const match = content.match(reg)
 
   if (!match) {
@@ -123,10 +128,10 @@ function upsertRow(content, startMarker, endMarker, key, row) {
 
   const rows = match[1]
     .split('\n')
-    .map((line) => line.trimEnd())
-    .filter((line) => line.trim())
+    .map(line => line.trimEnd())
+    .filter(line => line.trim())
 
-  const index = rows.findIndex((line) => line.includes(key))
+  const index = rows.findIndex(line => line.includes(key))
 
   if (index >= 0) {
     rows[index] = row
@@ -135,6 +140,7 @@ function upsertRow(content, startMarker, endMarker, key, row) {
   }
 
   const replacement = `${startMarker}\n${rows.join('\n')}\n${endMarker}`
+
   return content.replace(reg, replacement)
 }
 
@@ -146,5 +152,5 @@ module.exports = {
   ensureMarkers,
   upsertRow,
   mdLink,
-  cleanCell,
+  cleanCell
 }
