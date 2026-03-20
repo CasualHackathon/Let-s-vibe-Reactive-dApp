@@ -26,20 +26,30 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.11"
+          node-version: "20"
 
-      - name: Sync CONTRIBUTING.md
+      - name: Run registration script
+        if: contains(join(github.event.issue.labels.*.name, ','), 'registration')
         env:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_URL: ${{ github.event.issue.html_url }}
           ISSUE_USER: ${{ github.event.issue.user.login }}
-          ISSUE_LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
-        run: python .github/scripts/sync_contributing.py
+        run: node .github/scripts/signup_extract.js
+
+      - name: Run submission script
+        if: contains(join(github.event.issue.labels.*.name, ','), 'submission')
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+        run: node .github/scripts/submission_extract.js
 
       - name: Commit changes
         run: |
