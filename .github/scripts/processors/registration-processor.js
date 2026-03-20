@@ -11,6 +11,10 @@ const SECTION_TITLE = '## 04 | 报名列表（Registration List）'
 const START_MARKER = '<!-- registration-list:start -->'
 const END_MARKER = '<!-- registration-list:end -->'
 
+function escapeForRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
 function extractIssueNumberFromRow(row) {
   const match = row.match(/\[更新\]\(https:\/\/github\.com\/[^/]+\/[^/]+\/issues\/(\d+)\)/)
   return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER
@@ -39,10 +43,6 @@ function renumberRows(content) {
 
   const replacement = `${START_MARKER}\n${renumbered.join('\n')}\n${END_MARKER}`
   return content.replace(reg, replacement)
-}
-
-function escapeForRegExp(value) {
-  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
 function processRegistration(issueBody, context) {
