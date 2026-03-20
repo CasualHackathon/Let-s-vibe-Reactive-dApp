@@ -23,6 +23,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 2 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/2) |
 | #1 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/1) |
+| #2 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/2) |
 <!-- registration-list:end -->
 
 ## **05 | 项目提交名单（Submission List）**
