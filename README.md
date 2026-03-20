@@ -4,7 +4,7 @@
 传统 Web3 中，智能合约通常处于被动执行状态，必须依赖外部指令触发。而睿应层(Reactive Network)正在打破这一局限。通过创新的事件驱动睿应式合约 (Reactive Contracts) 架构，让智能合约拥有实时感知全链动态的能力。无需等待，无需触发 —— 合约自己 “读懂” 链上世界。Reactive Casual Hackathon  期待你的灵感碰撞，这不仅是一场竞技，更是通往下一代 Web3 范式的入场券，即刻报名，一起率先定义链上自动化的新纪元。
 
 - 参赛者报名入口：[点击报名](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/new?template=registration.md)
-- 参赛项目提交入口：
+- 参赛项目提交入口：[点击提交](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/new?template=submission.md)
 - 赛事群入口：加入睿应层微信中文社群： 请添加运营人员微信（Alc142）并备注【睿应层中文社群】
 
 ## 🗓️活动日程安排：
