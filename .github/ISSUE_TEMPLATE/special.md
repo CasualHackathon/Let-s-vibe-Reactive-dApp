@@ -14,11 +14,11 @@ assignees: ''
 **Name** (请输入您的全名 | 必填)
 >
 
-**Demo 1** (Demo 1：名称 / [origin tx] / [reactive tx] / [destination tx] | 必填)
+**Demo1** (Demo 1：名称 / [origin tx] / [reactive tx] / [destination tx] | 必填)
 >
 
-**Demo 2** (Demo 2：名称 / [origin tx] / [reactive tx] / [destination tx] | 必填)
+**Demo2** (Demo 2：名称 / [origin tx] / [reactive tx] / [destination tx] | 必填)
 >
 
-**Demo 3** (Demo 3：名称 / [origin tx] / [reactive tx] / [destination tx] | 必填)
+**Demo3** (Demo 3：名称 / [origin tx] / [reactive tx] / [destination tx] | 必填)
 >
