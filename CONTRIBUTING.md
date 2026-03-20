@@ -25,8 +25,8 @@
 <!-- registration-list:end -->
 
 ## **05 | 项目提交名单（Submission List）**
-
+<!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
 | --- | --- | --- | --- | --- |
-<!-- submission-list:start -->
+
 <!-- submission-list:end -->
