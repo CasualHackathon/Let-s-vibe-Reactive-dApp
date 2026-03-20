@@ -5,6 +5,7 @@
 
 - 参赛者报名入口：[点击报名](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/new?template=registration.md)
 - 参赛项目提交入口：[点击提交](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/new?template=submission.md)
+- 特别挑战提交入口：[点击提交](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/new?template=special.md)
 - 赛事群入口：加入睿应层微信中文社群： 请添加运营人员微信（Alc142）并备注【睿应层中文社群】
 
 ## 🗓️活动日程安排：
