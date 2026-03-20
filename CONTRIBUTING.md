@@ -45,7 +45,7 @@
 | 测试21 | 测试文件2s | 232 | [Repo](https://www.youtube.com/) | [查看 / 更新 #3](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/3) |
 <!-- submission-list:end -->
 
-## **06 | 特别挑战提交名单 **
+## **06 | 特别挑战提交名单**
 <!-- submission-list:start -->
 | 姓名 | Demo 1：名称 / [origin tx] / [reactive tx] / [destination tx] | Demo 2：名称 / [origin tx] / [reactive tx] / [destination tx] | Demo 3：名称 / [origin tx] / [reactive tx] / [destination tx] | 操作 |
 | --- | --- | --- | --- | --- |
