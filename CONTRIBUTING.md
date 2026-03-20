@@ -20,6 +20,7 @@
 ## **04 | 报名列表（Registration List）**
 
 <!-- registration-list:start -->
+| 1 | 菜鸟122422 | 菜鸟22 | 12356 | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/1) |
 | 序号 | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 备注 | 更新资料 |
 | --- | --- | --- | --- | --- | --- | --- |
 <!-- registration-list:end -->
