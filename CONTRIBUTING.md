@@ -36,6 +36,7 @@
 | 5 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/7) |
 | 6 | QingQiuGeek | 大四，java后端，两次java实习，懂点前端，会玩docker、linux，计划转web3（着急），学过solidity、go基础语法，部署过合约demo，玩过简单的链上交易 | 微信：javaer12345 邮箱：wzhaust@qq.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/8) |
 | 7 | 刘囝囡 | 自学一段时间solidity，尝试过写一个项目，但效果一般，后面学习Reactive合约相关知识，基础以及运行过程都了解，还没有真正上手实践编写dApp | Telegram：daidai04 微信：lll042706 邮箱：2913418812@qq.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/11) |
+| 8 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/12) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
