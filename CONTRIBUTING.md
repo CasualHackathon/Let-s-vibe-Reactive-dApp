@@ -30,7 +30,7 @@
 | 序号 | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 备注 | 更新资料 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 菜狗测试 | 菜 | 123567 | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/1) |
-| 2 | XiaoHai67890 | 全栈 有智能合约&前端开发经验 | 微信：XiaoHai4890 | 否 | 嘿嘿嘿嘿 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/4) |
+| 2 | XiaoHai67890 | 全栈 两个明星项目智能合约&前端开发工程师 休闲黑客松冠军 | 微信：XiaoHai4890 | 可能 | 嘿嘿嘿嘿 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/4) |
 | 3 | justin li | 目前大二下本科在读，专业是大数据科学与技术；大一接触币圈，发现币圈已经不再是随便可以赚钱的时代了，想着着自己做一些NFT来玩一下，结果深深了解到了web3这个领域，被深深的吸引到了。下定决心去做web3，目前学习了hardhat ，remix，foundry框架包括solidity,最近还学习了reactive contract;并且成功的部署了跨链消息发送和跨链执行，自动止盈止损等合约的理解和部署；对于整个web3有了解，有着许多关于web3的idea,目前是还在持续学习全栈web3中，对于DeFi,RWA很感兴趣；接下来我会去尝试做dapp，本人有较强的执行力和责任心；希望可以多多交朋友，以后大家都成为我的人脉 | Telegrame:@maytonk | 是 | 我想要成为web3高手 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/5) |
 | 4 | Partick | 大二在校学生，第一次参加黑客松，技术栈solidity,next.js,react.js,python,wagmi.js | 微信: tcjjy0124 邮箱：2046390698@qq.com | 否 | 无 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/6) |
 | 5 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/7) |
