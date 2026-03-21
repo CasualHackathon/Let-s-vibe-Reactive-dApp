@@ -2,94 +2,93 @@ const {
   readContributing,
   writeContributing,
   findFieldValue,
-  ensureMarkers,
   mdLink
 } = require('./shared')
 
-const SECTION_TITLE = '## 04 | 报名列表（Registration List）'
-const START_MARKER = '<!-- registration-list:start -->'
-const END_MARKER = '<!-- registration-list:end -->'
+const SECTION_TITLE = '## **04 | 报名列表（Registration List）**'
+const NEXT_SECTION_TITLE = '## **05 | 项目提交名单（Submission List）**'
 
-function escapeForRegExp(value) {
+function escapeRegExp(value) {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 }
 
-function extractIssueNumberFromRow(row) {
-  const match = row.match(/\[更新\]\(https:\/\/github\.com\/[^/]+\/[^/]+\/issues\/(\d+)\)/)
+function extractIssueNumberFromUrl(url) {
+  const match = String(url).match(/\/issues\/(\d+)$/)
   return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER
 }
 
-function splitTableBlock(content) {
-  const reg = new RegExp(
-    `${escapeForRegExp(START_MARKER)}\\n([\\s\\S]*?)\\n${escapeForRegExp(END_MARKER)}`
-  )
-
-  const match = content.match(reg)
-  if (!match) {
-    throw new Error(`未找到锚点: ${START_MARKER} / ${END_MARKER}`)
-  }
-
-  const block = match[1]
-  const lines = block
-    .split('\n')
-    .map(line => line.trimEnd())
-    .filter(line => line.trim())
-
-  if (lines.length < 2) {
-    throw new Error('报名表格缺少表头或分隔线')
-  }
-
-  const headerRow = lines[0]
-  const separatorRow = lines[1]
-  const dataRows = lines.slice(2)
-
-  return {
-    reg,
-    headerRow,
-    separatorRow,
-    dataRows
-  }
+function extractIssueNumberFromRow(row) {
+  const match = String(row).match(/\[更新\]\((https:\/\/github\.com\/[^)]+\/issues\/(\d+))\)/)
+  return match ? Number(match[2]) : Number.MAX_SAFE_INTEGER
 }
 
-function rebuildTableBlock(content, headerRow, separatorRow, dataRows, reg) {
-  const replacement = [
-    START_MARKER,
-    headerRow,
-    separatorRow,
-    ...dataRows,
-    END_MARKER
-  ].join('\n')
-
-  return content.replace(reg, replacement)
+function normalize(text = '') {
+  return String(text).replace(/\r\n/g, '\n')
 }
 
-function upsertDataRow(dataRows, row, issueUrl) {
-  const key = mdLink('更新', issueUrl)
-  const index = dataRows.findIndex(line => line.includes(key))
+function getSectionBounds(content) {
+  const startIndex = content.indexOf(SECTION_TITLE)
+  if (startIndex === -1) {
+    throw new Error(`未找到章节标题: ${SECTION_TITLE}`)
+  }
 
-  if (index >= 0) {
-    dataRows[index] = row
+  const nextIndex = content.indexOf(NEXT_SECTION_TITLE, startIndex)
+  if (nextIndex === -1) {
+    throw new Error(`未找到下一章节标题: ${NEXT_SECTION_TITLE}`)
+  }
+
+  return { startIndex, nextIndex }
+}
+
+function extractExistingRows(sectionText) {
+  const rowRegex = /\|\s*(?:#?\d+)\s*\|[\s\S]*?\[更新\]\(https:\/\/github\.com\/[^)]+\/issues\/\d+\)\s*\|/g
+  const rows = sectionText.match(rowRegex) || []
+  return rows.map(row => row.replace(/\s+/g, ' ').trim())
+}
+
+function upsertRow(rows, newRow, issueUrl) {
+  const targetIssueNumber = extractIssueNumberFromUrl(issueUrl)
+
+  const existingIndex = rows.findIndex(row => extractIssueNumberFromRow(row) === targetIssueNumber)
+
+  if (existingIndex >= 0) {
+    rows[existingIndex] = newRow
   } else {
-    dataRows.push(row)
+    rows.push(newRow)
   }
 
-  return dataRows
+  return rows
 }
 
-function renumberDataRows(dataRows) {
-  const sortedRows = [...dataRows].sort(
-    (a, b) => extractIssueNumberFromRow(a) - extractIssueNumberFromRow(b)
-  )
+function renumberRows(rows) {
+  const sorted = [...rows].sort((a, b) => extractIssueNumberFromRow(a) - extractIssueNumberFromRow(b))
 
-  return sortedRows.map((row, index) => {
+  return sorted.map((row, index) => {
     return row.replace(/^\|\s*#?\d+\s*\|/, `| ${index + 1} |`)
   })
 }
 
-function processRegistration(issueBody, context) {
-  let content = readContributing()
+function buildSection(rows) {
+  const lines = [
+    SECTION_TITLE,
+    '',
+    '| 序号 | 姓名 | 个人介绍 | 联系方式 | 组队意愿 | 备注 | 更新资料 |',
+    '| --- | --- | --- | --- | --- | --- | --- |',
+    ...rows,
+    ''
+  ]
 
-  content = ensureMarkers(content, SECTION_TITLE, START_MARKER, END_MARKER)
+  return lines.join('\n')
+}
+
+function processRegistration(issueBody, context) {
+  const content = normalize(readContributing())
+
+  const { startIndex, nextIndex } = getSectionBounds(content)
+
+  const before = content.slice(0, startIndex)
+  const currentSection = content.slice(startIndex, nextIndex)
+  const after = content.slice(nextIndex)
 
   const name = findFieldValue(issueBody, 'Name')
   const introduction = findFieldValue(issueBody, 'Introduction')
@@ -97,22 +96,16 @@ function processRegistration(issueBody, context) {
   const wantsTeam = findFieldValue(issueBody, 'WantsTeam')
   const comment = findFieldValue(issueBody, 'Comment')
 
-  const row = `| 0 | ${name} | ${introduction} | ${contactMethod} | ${wantsTeam} | ${comment} | ${mdLink('更新', context.issueUrl)} |`
+  const newRow = `| 0 | ${name} | ${introduction} | ${contactMethod} | ${wantsTeam} | ${comment} | ${mdLink('更新', context.issueUrl)} |`
 
-  const { reg, headerRow, separatorRow, dataRows } = splitTableBlock(content)
+  const existingRows = extractExistingRows(currentSection)
+  const mergedRows = upsertRow(existingRows, newRow, context.issueUrl)
+  const finalRows = renumberRows(mergedRows)
 
-  const mergedRows = upsertDataRow(dataRows, row, context.issueUrl)
-  const renumberedRows = renumberDataRows(mergedRows)
+  const rebuiltSection = buildSection(finalRows)
+  const newContent = `${before}${rebuiltSection}${after}`
 
-  content = rebuildTableBlock(
-    content,
-    headerRow,
-    separatorRow,
-    renumberedRows,
-    reg
-  )
-
-  writeContributing(content)
+  writeContributing(newContent)
 }
 
 module.exports = {
