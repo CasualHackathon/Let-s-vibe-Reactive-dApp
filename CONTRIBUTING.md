@@ -36,7 +36,8 @@
 | 5 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/7) |
 | 6 | QingQiuGeek | 大四，java后端，两次java实习，懂点前端，会玩docker、linux，计划转web3（着急），学过solidity、go基础语法，部署过合约demo，玩过简单的链上交易 | 微信：javaer12345 邮箱：wzhaust@qq.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/8) |
 | 7 | 刘囝囡 | 自学一段时间solidity，尝试过写一个项目，但效果一般，后面学习Reactive合约相关知识，基础以及运行过程都了解，还没有真正上手实践编写dApp | Telegram：daidai04 微信：lll042706 邮箱：2913418812@qq.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/11) |
-| 8 | Sunny | AI全干工程师  休闲黑客松亚军，ETHDenver黑客松亚军 | Telegram: @enderzcx 微信: wx84858510 邮箱:tifeiyangyang@gmail.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/12) |
+| 8 | Sunny | AI全干工程师 休闲黑客松亚军，ETHDenver黑客松亚军 | Telegram: @enderzcx 微信: wx84858510 邮箱:tifeiyangyang@gmail.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/12) |
+| 9 | 谢金鑫 | 大二Web3新手，专业计算机科学与技术+金融学，对区块链技术、智能合约开发与链上金融应用有浓厚兴趣，具备基础编程能力与金融市场认知，正在系统学习Solidity、前端开发及DeFi、NFT等Web3赛道知识，希望通过实践项目积累经验，探索技术与金融结合的创新方向。 | Telegram:eix156754,微信：_sosososos0-__-0 | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/13) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
