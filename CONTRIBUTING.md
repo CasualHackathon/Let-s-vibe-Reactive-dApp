@@ -41,6 +41,7 @@
 | 10 | 陈祉量/carl | 你好，我是 Carl，一名对 Web3、AI 和产品落地都很感兴趣的开发者/构建者。擅长快速理解需求、设计产品方案并推进 Demo 落地，熟悉产品设计、技术协作、用户体验优化，以及利用 AI 工具提升开发效率。对区块链应用、智能合约、DeFi、链上数据、AI x Crypto 等方向有较强兴趣，希望在黑客松中与队友一起做出一个真正有创新性且可展示的作品。我重视执行力、沟通效率和结果导向，能够积极参与从想法打磨、功能设计到最终展示的全过程。 | 邮箱：lanhq5q7gam2539@gmail.com | 是 | 希望寻找有产品、设计、前端、智能合约或增长背景的伙伴组队，尤其对 AI + Web3、链上工具、用户增长、基础设施应用等方向感兴趣。期待和执行力强、愿意高效协作的队友一起在短时间内完成一个有亮点的项目 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/14) |
 | 11 | Elon | 交易所合约工程师，solidity合约开发 | Telegram: @ElonCYL，微信: CYL-Elon，邮箱: elonc714@gmail.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/15) |
 | 12 | 杨长琳 | 我是嵌入式软件工程师，但是也很熟悉前端的开发，后端也会一点，初步了解eth和reactive链。 | Telegram: @Foxpriest，微信: q15398858846，邮箱: 3079308081@qq.com | 是 | 经验不是很足，希望可以通过这次黑客松积累更多的经验 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/17) |
+| 13 | Sue | Ai全栈工程师 | Telegram: @Sue_muyu，微信:sueyj_258 | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/18) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
