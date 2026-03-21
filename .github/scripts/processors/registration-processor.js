@@ -3,7 +3,6 @@ const {
   writeContributing,
   findFieldValue,
   ensureMarkers,
-  upsertRow,
   mdLink
 } = require('./shared')
 
@@ -20,7 +19,7 @@ function extractIssueNumberFromRow(row) {
   return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER
 }
 
-function renumberRows(content) {
+function splitTableBlock(content) {
   const reg = new RegExp(
     `${escapeForRegExp(START_MARKER)}\\n([\\s\\S]*?)\\n${escapeForRegExp(END_MARKER)}`
   )
@@ -30,19 +29,61 @@ function renumberRows(content) {
     throw new Error(`未找到锚点: ${START_MARKER} / ${END_MARKER}`)
   }
 
-  const rows = match[1]
+  const block = match[1]
+  const lines = block
     .split('\n')
     .map(line => line.trimEnd())
     .filter(line => line.trim())
 
-  rows.sort((a, b) => extractIssueNumberFromRow(a) - extractIssueNumberFromRow(b))
+  if (lines.length < 2) {
+    throw new Error('报名表格缺少表头或分隔线')
+  }
 
-  const renumbered = rows.map((row, index) => {
+  const headerRow = lines[0]
+  const separatorRow = lines[1]
+  const dataRows = lines.slice(2)
+
+  return {
+    reg,
+    headerRow,
+    separatorRow,
+    dataRows
+  }
+}
+
+function rebuildTableBlock(content, headerRow, separatorRow, dataRows, reg) {
+  const replacement = [
+    START_MARKER,
+    headerRow,
+    separatorRow,
+    ...dataRows,
+    END_MARKER
+  ].join('\n')
+
+  return content.replace(reg, replacement)
+}
+
+function upsertDataRow(dataRows, row, issueUrl) {
+  const key = mdLink('更新', issueUrl)
+  const index = dataRows.findIndex(line => line.includes(key))
+
+  if (index >= 0) {
+    dataRows[index] = row
+  } else {
+    dataRows.push(row)
+  }
+
+  return dataRows
+}
+
+function renumberDataRows(dataRows) {
+  const sortedRows = [...dataRows].sort(
+    (a, b) => extractIssueNumberFromRow(a) - extractIssueNumberFromRow(b)
+  )
+
+  return sortedRows.map((row, index) => {
     return row.replace(/^\|\s*#?\d+\s*\|/, `| ${index + 1} |`)
   })
-
-  const replacement = `${START_MARKER}\n${renumbered.join('\n')}\n${END_MARKER}`
-  return content.replace(reg, replacement)
 }
 
 function processRegistration(issueBody, context) {
@@ -58,15 +99,18 @@ function processRegistration(issueBody, context) {
 
   const row = `| 0 | ${name} | ${introduction} | ${contactMethod} | ${wantsTeam} | ${comment} | ${mdLink('更新', context.issueUrl)} |`
 
-  content = upsertRow(
-    content,
-    START_MARKER,
-    END_MARKER,
-    mdLink('更新', context.issueUrl),
-    row
-  )
+  const { reg, headerRow, separatorRow, dataRows } = splitTableBlock(content)
 
-  content = renumberRows(content)
+  const mergedRows = upsertDataRow(dataRows, row, context.issueUrl)
+  const renumberedRows = renumberDataRows(mergedRows)
+
+  content = rebuildTableBlock(
+    content,
+    headerRow,
+    separatorRow,
+    renumberedRows,
+    reg
+  )
 
   writeContributing(content)
 }
