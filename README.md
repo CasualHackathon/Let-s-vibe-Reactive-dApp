@@ -58,7 +58,7 @@
 
 - Demo 1：名称 / [origin tx] / [reactive tx] / [destination tx]
 - Demo 2：名称 / [origin tx] / [reactive tx] / [destination tx]
-- Demo 3：名称 / [origin tx] / [reactive tx] / [destination tx]： 优胜项目将获得长期深度孵化支持，并对接优质行业资源与合作机会
+- Demo 3：名称 / [origin tx] / [reactive tx] / [destination tx]
 
 ## 02 | 赛道介绍 (Tracks )
 
