@@ -42,6 +42,7 @@
 | 11 | Elon | 交易所合约工程师，solidity合约开发 | Telegram: @ElonCYL，微信: CYL-Elon，邮箱: elonc714@gmail.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/15) |
 | 12 | 杨长琳 | 我是嵌入式软件工程师，但是也很熟悉前端的开发，后端也会一点，初步了解eth和reactive链。 | Telegram: @Foxpriest，微信: q15398858846，邮箱: 3079308081@qq.com | 是 | 经验不是很足，希望可以通过这次黑客松积累更多的经验 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/17) |
 | 13 | Sue | Ai全栈工程师 | Telegram: @Sue_muyu，微信:sueyj_258 | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/18) |
+| 14 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/20) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
