@@ -42,8 +42,8 @@
 | 11 | Elon | 交易所合约工程师，solidity合约开发 | Telegram: @ElonCYL，微信: CYL-Elon，邮箱: elonc714@gmail.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/15) |
 | 12 | 杨长琳 | 我是嵌入式软件工程师，但是也很熟悉前端的开发，后端也会一点，初步了解eth和reactive链。 | Telegram: @Foxpriest，微信: q15398858846，邮箱: 3079308081@qq.com | 是 | 经验不是很足，希望可以通过这次黑客松积累更多的经验 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/17) |
 | 13 | Sue | Ai全栈工程师 | Telegram: @Sue_muyu，微信:sueyj_258 | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/18) |
-| 14 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/20) |
-| 15 | 森理 | 全栈开发,喜欢好看的UI/UX设计,擅长压力AI,休闲黑客松预测赛道第一名 | Telegram: @Ser4nu11EN7  微信:a2391593562 | 可能 | 请输入文本 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/22) |
+| 14 | Eddie | 大二，对 Web3 、AI 抱有浓厚兴趣，参加过上一期实习计划，系统学习了 solidity 和 Hardhat、Foundry 开发框架。经过前两周学习 reactive 相关知识，跑通所有演示 demo，对 reactive 有了更深刻的理解，目前正在全栈开发一个 dapp 中 | vx：lfh53406 邮箱：2551217720@qq.com | 可能 | 我也想要成为 Web3 高手 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/20) |
+| 15 | 森理 | 全栈开发,喜欢好看的UI/UX设计,擅长压力AI,休闲黑客松预测赛道第一名 | Telegram: @Ser4nu11EN7 微信:a2391593562 | 可能 | 请输入文本 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/22) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
