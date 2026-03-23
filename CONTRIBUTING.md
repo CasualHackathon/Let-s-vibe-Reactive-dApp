@@ -45,6 +45,7 @@
 | 14 | Eddie | 大二，对 Web3 、AI 抱有浓厚兴趣，参加过上一期实习计划，系统学习了 solidity 和 Hardhat、Foundry 开发框架。经过前两周学习 reactive 相关知识，跑通所有演示 demo，对 reactive 有了更深刻的理解，目前正在全栈开发一个 dapp 中 | vx：lfh53406 邮箱：2551217720@qq.com | 可能 | 我也想要成为 Web3 高手 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/20) |
 | 15 | 森理 | 全栈开发,喜欢好看的UI/UX设计,擅长压力AI,休闲黑客松预测赛道第一名 | Telegram: @Ser4nu11EN7 微信:a2391593562 | 可能 | 请输入文本 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/22) |
 | 16 | Y4NG | web 3 全栈 | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/23) |
+| 17 | David | 全栈，现在已经会 Solidity，Reactive 对基本的功能都已熟悉，还没实际上手经验，想要做一个小游戏，希望是一个全链游戏 | TG：@Ox221Eight | 是 | 已组队 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/24) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
