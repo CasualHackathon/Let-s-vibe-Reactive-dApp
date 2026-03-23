@@ -47,6 +47,7 @@
 | 16 | Y4NG | web 3 全栈 | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/23) |
 | 17 | David | 全栈，现在已经会 Solidity，Reactive 对基本的功能都已熟悉，还没实际上手经验，想要做一个小游戏，希望是一个全链游戏 | TG：@Ox221Eight | 是 | 已组队 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/24) |
 | 18 | jese li | I'm Jese, a Web3 Builder & Solidity Developer (Gen Z / 02). As an INTJ, I focus on using AI reshapes everything. | Telegram: @liji_1357 Wechat：lzx127027 | maybe | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/25) |
+| 19 | beautifulremi | Solidity, Arbitrum, Solana | beautifulremi3@gmail.com | nope | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/26) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
