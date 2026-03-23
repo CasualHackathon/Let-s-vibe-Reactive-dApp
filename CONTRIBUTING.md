@@ -50,6 +50,7 @@
 | 19 | beautifulremi | Solidity, Arbitrum, Solana | beautifulremi3@gmail.com | nope | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/26) |
 | 20 | 老实人 | 4年多前端经验 带过7人团队 可以做全栈 | 微信: xaochen66,邮箱: 3334374668@qq.com | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/27) |
 | 21 | yoona | 合约，前端 | Telegram: @yoona1020，微信: Zayx1001，邮箱: 1486343814l@qq.com | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/29) |
+| 22 | Ethan | 我是 Ethan，具备电气工程+管理背景，专注于自动化系统与 Web3 应用的架构设计与落地。 | Telegram: @isethan18，微信: isethan18，邮箱: jinjiale67@gmail.com | 可能 | 无 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/30) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
