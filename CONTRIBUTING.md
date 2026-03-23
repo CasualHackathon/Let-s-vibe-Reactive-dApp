@@ -48,7 +48,8 @@
 | 17 | David | 全栈，现在已经会 Solidity，Reactive 对基本的功能都已熟悉，还没实际上手经验，想要做一个小游戏，希望是一个全链游戏 | TG：@Ox221Eight | 是 | 已组队 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/24) |
 | 18 | jese li | I'm Jese, a Web3 Builder & Solidity Developer (Gen Z / 02). As an INTJ, I focus on using AI reshapes everything. | Telegram: @liji_1357 Wechat：lzx127027 | maybe | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/25) |
 | 19 | beautifulremi | Solidity, Arbitrum, Solana | beautifulremi3@gmail.com | nope | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/26) |
-| 20 | 老实人 | 4年多前端经验  带过7人团队 可以做全栈 | 微信: xaochen66,邮箱: 3334374668@qq.com | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/27) |
+| 20 | 老实人 | 4年多前端经验 带过7人团队 可以做全栈 | 微信: xaochen66,邮箱: 3334374668@qq.com | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/27) |
+| 21 | yoona | 合约，前端 | Telegram: @yoona1020，微信: Zayx1001，邮箱: 1486343814l@qq.com | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/29) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
