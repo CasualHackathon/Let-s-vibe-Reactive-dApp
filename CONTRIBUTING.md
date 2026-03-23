@@ -46,6 +46,7 @@
 | 15 | 森理 | 全栈开发,喜欢好看的UI/UX设计,擅长压力AI,休闲黑客松预测赛道第一名 | Telegram: @Ser4nu11EN7 微信:a2391593562 | 可能 | 请输入文本 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/22) |
 | 16 | Y4NG | web 3 全栈 | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/23) |
 | 17 | David | 全栈，现在已经会 Solidity，Reactive 对基本的功能都已熟悉，还没实际上手经验，想要做一个小游戏，希望是一个全链游戏 | TG：@Ox221Eight | 是 | 已组队 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/24) |
+| 18 | jese li | I'm Jese, a Web3 Builder & Solidity Developer (Gen Z / 02). As an INTJ, I focus on using AI reshapes everything. | Telegram: @liji_1357 Wechat：lzx127027 | maybe | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/25) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
