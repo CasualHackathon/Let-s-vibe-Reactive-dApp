@@ -54,6 +54,7 @@
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
 | --- | --- | --- | --- | --- |
 | KMarket | - | Elon | [Repo](https://github.com/0xElonC/KMarket) | [查看 / 更新 #16](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/16) |
+| Reactive BlindAuction | Reactive BlindAuction is a privacy-preserving sealed-bid auction system built with Zama FHEVM. Users can create auctions, upload item metadata to IPFS, buy encrypted SAT tokens, and place fully encrypted bids on Sepolia. The project is being extended with Reactive automation so that when an auction countdown ends, the winner reveal flow can be triggered automatically instead of requiring a user to manually click the reveal action. This improves autonomy, user experience, and real-time settlement for confidential on-chain auctions. | yoona | [Repo](https://github.com/yoona333/Reactive-BlindAuction) | [查看 / 更新 #28](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/28) |
 <!-- submission-list:end -->
 
 ## **06 | 特别挑战提交名单**
