@@ -2,7 +2,7 @@
 name: "⚡ 提交特别挑战（Special Challenge）"
 about: 提交你的特别挑战信息
 title: "Special Challenge: 姓名"
-labels: ["special"]
+labels: special
 assignees: []
 ---
 
