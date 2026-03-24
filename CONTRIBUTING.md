@@ -71,5 +71,6 @@
 | --- | --- | --- | --- | --- |
 | 测试1 | 测试1 | 测试 | 测试 | [查看 / 更新 #9](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/9) |
 | justin li | Basic Demo | Cron | Uniswap V2 Stop-Loss & Take-Profit Orders Demo | [查看 / 更新 #21](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/21) |
+| 谢金鑫 | Demo 1： basic/[0x9d2e44d3bc386599a91fee8d4112ec8b6e87a3c1e7604551022f286d212bab09]/[0xcfF9Ea80F0EE718fe8179232167f599f75E41E0b]/[0x9d2e44d3bc386599a91fee8d4112ec8b6e87a3c1e7604551022f286d212bab09] | uniswap-v2-stop-order/[0xc78e9702c9a61999a10884b9457d50E2C8e8346A]/[0x1a4B6D59ADeDA779761e525735F881b7d2664c09]/[0xc78e9702c9a61999a10884b9457d50E2C8e8346A] | uniswap-v2-stop-take-profit-order/[0x1D4fF977bEdB3e8576Be4c2388375b276E5Ce4F0]/[0xb8Ff7a51F9aE0262F08F5d1d02e10e203B15D5eE]/[0x1D4fF977bEdB3e8576Be4c2388375b276E5Ce4F0] | [查看 / 更新 #19](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/19) |
 <!-- special-list:end -->
 
