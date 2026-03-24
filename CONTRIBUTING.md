@@ -56,6 +56,7 @@
 | 25 | wish | web3爱好者，vibe coding选手 | 微信：mini Quan 邮箱：hwish39@gmail.com | 是 | 什么活都能干，希望和大佬交流学习 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/33) |
 | 26 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/34) |
 | 27 | klizz111 | Wanna exploring the possibility of blockchain; profcient in rust developing. | Email: klizz@ciall0.cn | 可能 | Null | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/36) |
+| 28 | zhaojx | 区块链工程专业本科在读，目前在研究Web3 技术：Solidity / DeFi / 合约安全。 | Telegram: @zhaojx，微信：z2721934507，邮箱：zhaojinxiu6@gmail.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/38) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
