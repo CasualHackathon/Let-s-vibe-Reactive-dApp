@@ -53,6 +53,7 @@
 | 22 | Ethan | 我是 Ethan，具备电气工程+管理背景，专注于自动化系统与 Web3 应用的架构设计与落地。 | Telegram: @isethan18，微信: isethan18，邮箱: jinjiale67@gmail.com | 可能 | 无 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/30) |
 | 23 | Swen | DevRel of ETHPanda; Vibe Developer, Analysis, Project Lead | tg: @redemptionandy | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/31) |
 | 24 | tutu | ai公司前端开发，有全栈，web3开发经验，参加过黑客松比赛，vibe coding爱好者； | 微信：tutuzhangxuetao 邮箱：zhangxuetao2018@gmail.com | 否 | 希望有技术大佬带带； | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/32) |
+| 25 | wish | web3爱好者，vibe coding选手 | 微信：mini Quan | 是 | 什么活都能干，希望和大佬交流学习 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/33) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
