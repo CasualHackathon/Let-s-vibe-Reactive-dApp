@@ -58,6 +58,7 @@
 | 27 | klizz111 | Wanna exploring the possibility of blockchain; profcient in rust developing. | Email: klizz@ciall0.cn | 可能 | Null | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/36) |
 | 28 | zhaojx | 区块链工程专业本科在读，目前在研究Web3 技术：Solidity / DeFi / 合约安全。 | Telegram: @zhaojx，微信：z2721934507，邮箱：zhaojinxiu6@gmail.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/38) |
 | 29 | JackCC | 在读研究生，目前在Web3 Career Build 团队负责技术协作。全栈开发工程师。 | Telegram: @jackchencc，微信: Cc_WeChat01，邮箱: chencan0703@gmail.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/40) |
+| 30 | Brick | 211大四计科生，第二期实习计划学员，擅长python后端和vibe coding | Telegram: @Brick0v0，微信: Brick0v0，邮箱: geralte_lee@163.com | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/44) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
