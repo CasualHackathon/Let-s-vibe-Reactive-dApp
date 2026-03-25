@@ -1,9 +1,9 @@
 # Contributing to Let’s vibe Reactive dApp Casual Hackathon
 
-## 01 | 报名通道与教程视频（Registration Tutorial）
+## 01 | 报名通道
 **报名通道**： [点击报名](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/new?template=registration.md)
 
-**报名教程**  
+
 
 ## **02 | 注意事项（Important Notes）**
 
