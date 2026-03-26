@@ -61,6 +61,7 @@
 | 30 | Brick | 211大四计科生，第二期实习计划学员，擅长python后端和vibe coding | Telegram: @Brick0v0，微信: Brick0v0，邮箱: geralte_lee@163.com | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/44) |
 | 31 | Yi-Chen Lin | 大四学生向往web3 生态 理念 叙事 希望毕业早日转往web 3 熟悉各类ai 工具 以及建立过一些app /self project | 微信: y1chnlyn Telegram: ctlycl | 否 | 想要体验积累经验 跟各位前辈学习 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/47) |
 | 32 | FenixIves | Web2 -> Web3 | WeChat: FoxyInvestment | 否 | I don't know | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/48) |
+| 33 | WEI DENG | Solidity,Python,Hardhat | WeChat :17691147697 | 是 | 完成了ReactiveNetwork打卡任务 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/49) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
