@@ -51,7 +51,7 @@
 | 20 | 老实人 | 4年多前端经验 带过7人团队 可以做全栈 | 微信: xaochen66,邮箱: 3334374668@qq.com | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/27) |
 | 21 | yoona | 合约，前端 | Telegram: @yoona1020，微信: Zayx1001，邮箱: 1486343814l@qq.com | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/29) |
 | 22 | Ethan | 我是 Ethan，具备电气工程+管理背景，专注于自动化系统与 Web3 应用的架构设计与落地。 | Telegram: @isethan18，微信: isethan18，邮箱: jinjiale67@gmail.com | 可能 | 无 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/30) |
-| 23 | Swen | DevRel of ETHPanda; Vibe Developer, Analysis, Project Lead | tg: @redemptionandy | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/31) |
+| 23 | Swen | DevRel of ETHPanda; Vibe Developer, Analyst, Project Lead | tg: @redemptionandy | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/31) |
 | 24 | tutu | ai公司前端开发，有全栈，web3开发经验，参加过黑客松比赛，vibe coding爱好者； | 微信：tutuzhangxuetao 邮箱：zhangxuetao2018@gmail.com | 否 | 希望有技术大佬带带； | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/32) |
 | 25 | wish | web3爱好者，vibe coding选手 | 微信：mini Quan 邮箱：hwish39@gmail.com | 是 | 什么活都能干，希望和大佬交流学习 | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/33) |
 | 26 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/34) |
