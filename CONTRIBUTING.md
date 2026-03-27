@@ -66,6 +66,7 @@
 | 35 | daidai | 自学一段时间solidity，并仿开源项目尝试写过投票DApp。自学一段时间Reactive相关知识，跟着残酷共学部署过两个Reactive合约并且完整跑通 | Telegram: @daidai04，微信：lll042706，邮箱：2913418812@qq.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/51) |
 | 36 | Ziyi Yang | computer science student in second year. | ziyiy5661@gmail.com | 可能 | no | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/52) |
 | 37 | 楚天影 | Web3 爱好者 | slucifershz@gmail.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/53) |
+| 38 | Evan | 前端开发 | Telegram: @yanyuanfe | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/56) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
