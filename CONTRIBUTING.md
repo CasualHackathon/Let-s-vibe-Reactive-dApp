@@ -70,6 +70,7 @@
 | 39 | Remy Li | Python/C++/SQL/RPA/HTML | 邮箱: 3038632580@qq.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/60) |
 | 40 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/61) |
 | 41 | virusLuke3 | blockchain & AI developer | Telegram: @LukeSky33 | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/62) |
+| 42 | W5W8L9 | 大三转码，vibecoding练习中，持续学习solidity、Python。最近对DeFi game 感兴趣，希望有机会可以进一步了解参与。 | 邮箱：wangwl2323@gmail.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/63) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
