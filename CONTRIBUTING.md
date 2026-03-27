@@ -68,6 +68,7 @@
 | 37 | 楚天影 | Web3 爱好者 | slucifershz@gmail.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/53) |
 | 38 | Evan | 前端开发 | Telegram: @yanyuanfe | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/56) |
 | 39 | Remy Li | Python/C++/SQL/RPA/HTML | 邮箱: 3038632580@qq.com | 可能 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/60) |
+| 40 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/61) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
