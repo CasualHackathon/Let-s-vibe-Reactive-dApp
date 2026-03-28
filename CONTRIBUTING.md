@@ -72,6 +72,7 @@
 | 41 | virusLuke3 | blockchain & AI developer | Telegram: @LukeSky33 | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/62) |
 | 42 | W5W8L9 | 大三转码，vibecoding练习中，持续学习solidity、Python。最近对DeFi game 感兴趣，希望有机会可以进一步了解参与。 | 邮箱：wangwl2323@gmail.com | 可能 | 小白也可以玩 web3 吗？ | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/63) |
 | 43 | - | - | - | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/66) |
+| 44 | 苏生 | I am a CS student. My graduation project is **EchoCapsule** — a dynamic NFT on Sepolia with on-chain SVG metadata and fan engagement. Stack: Solidity / Hardhat, Next.js + Wagmi, Go + Gin + MySQL; comfortable with EVM contracts and full-stack integration. For the Reactive Network hackathon I added an **Origin → Reactive (Lasna) → Destination** workflow triggered by the `SuperComfort` event, with Foundry-based deployment. | Telegram:@susheng ， 微信：xiaojinhua26106 , 邮箱：zhengjinfa812@gmail.com | yes | EchoCapsule: idol dynamic NFT + on-chain `superComfort` messages; Reactive Network listens and auto-awards points on the destination chain. | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/67) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
