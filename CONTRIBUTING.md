@@ -75,6 +75,7 @@
 | 44 | 苏生 | I am a CS student. My graduation project is **EchoCapsule** — a dynamic NFT on Sepolia with on-chain SVG metadata and fan engagement. Stack: Solidity / Hardhat, Next.js + Wagmi, Go + Gin + MySQL; comfortable with EVM contracts and full-stack integration. For the Reactive Network hackathon I added an **Origin → Reactive (Lasna) → Destination** workflow triggered by the `SuperComfort` event, with Foundry-based deployment. | Telegram:@susheng ， 微信：xiaojinhua26106 , 邮箱：zhengjinfa812@gmail.com | yes | EchoCapsule: idol dynamic NFT + on-chain `superComfort` messages; Reactive Network listens and auto-awards points on the destination chain. | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/67) |
 | 45 | Damia | web3新人，hackathon常客 | X:@Damia2048 | 是（已组队） | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/75) |
 | 46 | MoonSi | 前中厂后端开发＋ 现Agentic Coding选手， 有完整的DApp开发部署经验 | Telegram: @TheMoon3，微信: msg200msg200 | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/78) |
+| 47 | Sophia Wen | I’m a Web3 community builder and early-stage operator focused on global market growth. Currently, I’m building and managing content and community across Chinese platforms while preparing to expand into English-speaking ecosystems. | telegram: @tayokolanda，微信: 19254119648，邮箱: 1541632883@qq.com | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/79) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
