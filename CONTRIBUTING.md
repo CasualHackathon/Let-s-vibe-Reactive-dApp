@@ -85,6 +85,7 @@
 | WillLead | WillLead is a wallet prototype designed natively for Reactive Network, built to explore a new “Reactive-native wallet” | Patrick | [Repo](https://github.com/patrick-star-10/WillLead) | [查看 / 更新 #68](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/68) |
 | Lucky Scratch | Lucky Scratch is a single-page onchain scratch-card game built to demonstrate Reactive Contracts in a real playable flow. | Ethan | [Repo](https://github.com/XuetaoZhang/Reactive) | [查看 / 更新 #70](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/70) |
 | polyVIS | polymarket alpha vis using reactive contract | virusLuke3 | [Repo](https://github.com/virusLuke3/polyVis) | [查看 / 更新 #72](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/72) |
+| EchoCapsule | EchoCapsule is a creator–fan “mood capsule” dApp: a dynamic NFT whose on-chain SVG and media reflect the idol’s live emotional state, so devotion is recorded as something alive, not a static JPEG. Fans can send Super comfort—a paid, on-chain message on Ethereum Sepolia—as a verifiable act of support. | 苏生,Sophia wen | [Repo](https://github.com/resurrection-i/EchoCapsule) | [查看 / 更新 #80](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/80) |
 <!-- submission-list:end -->
 
 ## **06 | 特别挑战提交名单**
