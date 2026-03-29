@@ -100,7 +100,7 @@
 | Reactive Vault Sentinel | Reactive Vault Sentinel is a cross-chain vault protection system oriented to application scenarios. It monitors risk events on the source chain, performs rule judgments on the Reactive Network, and triggers protective actions on the target chain, demonstrating the complete chain of cross-chain automated risk control. | jese li | [Repo](https://github.com/liji3597/reactive-vault-sentinel) | [查看 / 更新 #96](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/96) |
 | EchoCapsule | EchoCapsule is a creator–fan “mood capsule” dApp: a dynamic NFT whose on-chain SVG and media reflect the idol’s live emotional state, so devotion is recorded as something alive, not a static JPEG. Fans can send Super comfort—a paid, on-chain message on Ethereum Sepolia—as a verifiable act of support. | 苏生，Sophia Wen | [Repo](https://github.com/resurrection-i/EchoCapsule) | [查看 / 更新 #97](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/97) |
 | FlashBack | About | MoonSi | [Repo](https://github.com/SeeMoon357/FlashBack-FlashShield) | [查看 / 更新 #99](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/99) |
-| - | - | - | [Repo](https://github.com/Y4NG666/Aegis-AI) | [查看 / 更新 #100](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/100) |
+| Aegis AI Guardian | Aegis AI Guardian 是一个面向 Web3 基础设施（DeFi / DAO / 公链）的 AI 驱动自治安全系统。 | Y4NG | [Repo](https://github.com/Y4NG666/Aegis-AI) | [查看 / 更新 #100](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/100) |
 <!-- submission-list:end -->
 
 ## **06 | 特别挑战提交名单**
