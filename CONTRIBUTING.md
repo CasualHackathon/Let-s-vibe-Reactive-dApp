@@ -94,6 +94,7 @@
 | ScamAI | - | laicai | - | [查看 / 更新 #89](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/89) |
 | are you OK | - | laicai | - | [查看 / 更新 #90](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/90) |
 | Nulla | A cross-chain Safe approval firewall powered by Reactive Network. | beautifulremi | [Repo](https://github.com/beautifulrem/Nulla) | [查看 / 更新 #92](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/92) |
+| ReactiveFlow | ReactiveFlow is a no-code cross-chain IFTTT workflow orchestrator powered by Reactive Network. Users create automated workflows through a visual 4-step builder (Trigger → | Evan | [Repo](https://github.com/YanYuanFE/reactive-flow) | [查看 / 更新 #93](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/93) |
 <!-- submission-list:end -->
 
 ## **06 | 特别挑战提交名单**
