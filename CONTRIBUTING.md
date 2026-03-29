@@ -95,6 +95,7 @@
 | are you OK | - | laicai | - | [查看 / 更新 #90](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/90) |
 | Nulla | A cross-chain Safe approval firewall powered by Reactive Network. | beautifulremi | [Repo](https://github.com/beautifulrem/Nulla) | [查看 / 更新 #92](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/92) |
 | ReactiveFlow | ReactiveFlow is a no-code cross-chain IFTTT workflow orchestrator powered by Reactive Network. Users create automated workflows through a visual 4-step builder (Trigger → | Evan | [Repo](https://github.com/YanYuanFE/reactive-flow) | [查看 / 更新 #93](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/93) |
+| Using RC for On-Chain Automated Liquidation and Arbitrage | This project demonstrates practical usage of Reactive Contracts (RC) for event-driven DeFi automation across multiple chains.<br>We combine automated liquidation monitoring on Sepolia with cross-chain arbitrage execution between Sepolia and Base Sepolia.<br>The key value is to reduce manual operations, improve execution reliability, and provide transparent end-to-end observability through both on-chain transactions and frontend activity logs. | justinli : good-person | [Repo](https://github.com/goodperson888/reactive_DeFi_bot/tree/dev) | [查看 / 更新 #94](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/94) |
 <!-- submission-list:end -->
 
 ## **06 | 特别挑战提交名单**
