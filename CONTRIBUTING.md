@@ -91,6 +91,7 @@
 | RIFI | AI decides. Reactive executes. Autonomous trading agent with decentralized stop-loss on Base + Reactive Network. | Sunny | [Repo](https://github.com/enderzcx/RIFI) | [查看 / 更新 #82](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/82) |
 | ProtoMon-Yahtzee | ProtoMon-Yahtzee is a reactive onchain roguelite dice battler: instant optimistic gameplay, verifiable L2 settlement, ERC-4337 session-key UX, and automatic cross-chain badge rewards via Reactive Network. | David | [Repo](https://github.com/EIP-Playground/ProtoMon-Yahtzee) | [查看 / 更新 #83](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/83) |
 | Whale Sentry | Intelligent Whale Transaction Monitoring System | FenixIves | [Repo](https://github.com/fenixIves/ReactiveWhaleSentry) | [查看 / 更新 #87](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/87) |
+| ScamAI | - | laicai | - | [查看 / 更新 #89](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/89) |
 <!-- submission-list:end -->
 
 ## **06 | 特别挑战提交名单**
