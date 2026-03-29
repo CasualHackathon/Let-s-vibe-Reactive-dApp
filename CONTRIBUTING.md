@@ -93,6 +93,7 @@
 | Whale Sentry | Intelligent Whale Transaction Monitoring System | FenixIves | [Repo](https://github.com/fenixIves/ReactiveWhaleSentry) | [查看 / 更新 #87](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/87) |
 | ScamAI | - | laicai | - | [查看 / 更新 #89](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/89) |
 | are you OK | - | laicai | - | [查看 / 更新 #90](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/90) |
+| Nulla | A cross-chain Safe approval firewall powered by Reactive Network. | beautifulremi | [Repo](https://github.com/beautifulrem/Nulla) | [查看 / 更新 #92](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/92) |
 <!-- submission-list:end -->
 
 ## **06 | 特别挑战提交名单**
