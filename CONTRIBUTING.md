@@ -77,6 +77,7 @@
 | 46 | MoonSi | 前中厂后端开发＋ 现Agentic Coding选手， 有完整的DApp开发部署经验 | Telegram: @TheMoon3，微信: msg200msg200 | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/78) |
 | 47 | Sophia Wen | I’m a Web3 community builder and early-stage operator focused on global market growth. Currently, I’m building and managing content and community across Chinese platforms while preparing to expand into English-speaking ecosystems. | telegram: @tayokolanda，微信: 19254119648，邮箱: 1541632883@qq.com | - | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/79) |
 | 48 | laicai | vibecoding全栈 | 微信：suerte_feliz88 | 否 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/88) |
+| 49 | Krystal6633 | 运营向，擅长pitch和产品故事线展示 | 微信：Lucky666Victoria | 是 | - | [更新](https://github.com/CasualHackathon/Let-s-vibe-Reactive-dApp/issues/101) |
 ## **05 | 项目提交名单（Submission List）**
 <!-- submission-list:start -->
 | 项目名称 | 项目描述 | 负责人 | 仓库 | 操作 |
